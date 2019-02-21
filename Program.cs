@@ -12,9 +12,9 @@ namespace funcionTorreHanoi
         {
             if (n > 0)
             {
-                torresHanoi(n - 1, o, aux, d);
-                Console.Write("nSe Mueve anillo desde Torre " + o + " Hasta Torre " + d);
-                torreshanoi(n - 1, aux, d, o);
+                torresHanoi(n-1, o, aux, d);
+                Console.Write("\nSe Mueve anillo desde Torre " + o + " Hasta Torre " + d);
+                torreshanoi(n-1, aux, d, o);
             }
         }
         static void Main(string[] args)
