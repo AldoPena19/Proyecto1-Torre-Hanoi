@@ -23,11 +23,13 @@ namespace funcionTorreHanoi
 
             Console.Write("J U E G O - T O R R E - D E - H A N O I");
             Console.Write("\n\nGRUPO NO.6");
-            Console.Write("\n\nEl problema planteado consiste en crear una solucion, que nos permita resolver el juego de las torres de hanoi.");
+            Console.Write("\n\nEste juego consiste en tres torres con anillos ordenados de mayor");
+            Console.Write("\na menor tamaño.");
             Console.Write("\n\nREGLAS:");
-            Console.Write("\nSe debe mover los discos de Torre 1 Origen a la Torre 3 Nueva posicion considerando Posicion Auxiliar.");
-            Console.Write("\nNunca se puede colocar un disco sobre uno pequeño.");
-            Console.Write("Favor ingresar la cantidad de anillos: ");
+            Console.Write("\n\nSe debe mover los discos de Torre 1 a la Torre 3 Nueva posicion Origen y usar");
+            Console.Write("\nPosicion Auxiliar o pivote.");
+            Console.Write("\n\nNunca se puede colocar un disco grande sobre uno pequeño.");
+            Console.Write("\n\nFavor ingresar la cantidad de anillos: ");
             n = int.Parse(Console.ReadLine());
 
             Console.Write("\n\nSOLUCION: \n");
